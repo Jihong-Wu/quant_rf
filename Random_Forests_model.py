@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, time
 import matplotlib.pyplot as plt
-import Technical_indicators as ti
+import features as ti
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, recall_score, precision_score
 
